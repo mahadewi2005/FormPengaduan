@@ -1,0 +1,94 @@
+/* Reset default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styling */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #7a65ff;
+  padding: 1rem 2rem;
+  height: 90px;
+}
+
+.navbar .logo a {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px 20px;
+}
+
+.nav-links a:hover {
+  color: #1b079c;
+}
+
+.nav-links a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid #000000;
+  transform: scaleX(0);
+  transition: 0.2s linear;
+}
+
+.nav-links a:hover::after {
+  margin-left: 20px;
+  transform: scaleX(0.7); /* Garis meluas ke 40% */
+}
+
+.nav-links a#logout::after {
+  content: none;
+}
+
+.nav-links a#logout:hover::after {
+  transform: none; /* Tidak ada efek hover */
+}
+
+/* .nav-links {
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px 20px;
+}
+
+.nav-links a:hover {
+  background-color: white;
+  border-radius: 5px;
+  color: #7a65ff;
+} */

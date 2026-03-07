@@ -1,0 +1,39 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+
+h2 {
+  margin-top: 80px;
+  font-size: 2rem;
+  color: #7a65ff;
+}
+
+.label input,
+select {
+  width: 100%;
+  padding: 9px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  border: 2px solid #7a65ff;
+}
+
+.label textarea {
+  padding: 10px; /* Padding yang wajar */
+  box-sizing: border-box; /* Padding tidak menambah ukuran elemen */
+  width: 100%; /* Lebar input */
+  border-radius: 5px;
+  border: 2px solid #7a65ff;
+}
+
+.label button {
+  display: inline-block;
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  color: #ffff;
+  background-color: #7a65ff;
+  border-radius: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}

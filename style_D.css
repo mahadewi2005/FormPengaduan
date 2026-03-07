@@ -1,0 +1,28 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.dashboard h1 {
+  margin-left: 100px;
+  margin-top: 200px; /* Memberikan ruang 100px dari atas */
+  font-size: 3rem;
+  color: #7a65ff;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+  line-height: 1.2;
+}
+
+.dashboard P {
+  margin-left: 100px;
+}
+
+.laporkan {
+  margin-left: 100px;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #ffff;
+  background-color: #7a65ff;
+  border-radius: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
+}

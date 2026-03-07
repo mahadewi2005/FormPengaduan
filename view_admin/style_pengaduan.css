@@ -1,0 +1,111 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+/* Styling untuk tabel */
+table {
+  border-collapse: collapse; /* Menghilangkan garis ganda */
+  width: 90%; /* Membuat tabel memenuhi lebar */
+  margin: 40px auto; /* Menambahkan jarak tabel dari elemen atas */
+  font-size: 14px; /* Ukuran teks */
+}
+
+/* Styling untuk header tabel */
+th {
+  background-color: #f4f4f4; /* Warna latar belakang header */
+  border: 1px solid #ddd; /* Border di setiap header */
+  padding: 10px; /* Jarak di dalam sel header */
+  text-align: center; /* Posisi teks di tengah */
+  font-weight: bold; /* Membuat teks tebal */
+}
+
+/* Styling untuk sel data */
+td {
+  border: 1px solid #ddd; /* Border di setiap sel */
+  padding: 10px; /* Jarak di dalam sel */
+  text-align: left; /* Posisi teks rata kiri */
+}
+
+/* Warna bergaris untuk setiap baris genap */
+tr:nth-child(even) {
+  background-color: #f9f9f9; /* Warna abu-abu muda */
+}
+
+/* Efek hover pada baris */
+tr:hover {
+  background-color: #f1f1f1; /* Warna ketika di-hover */
+}
+
+/* Styling untuk tombol */
+a.update-button {
+  display: inline-block;
+  background-color: #7a65ff;
+  color: white;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a.update-button:hover {
+  background-color: #4e36f0; /* Warna hijau lebih gelap saat hover */
+}
+
+.update-button {
+  background-color: #3498db;
+  color: white;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.update-button:hover {
+  background-color: #2980b9;
+}
+
+/* Kolom aksi supaya tidak turun */
+
+/* Container tombol */
+.aksi-button {
+  display: flex;
+  justify-content: space-between; /* kiri dan kanan */
+  align-items: center;
+  gap: 8px;
+}
+
+/* Tombol Update */
+.update-button {
+  background-color: #3498db;
+  color: white;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.update-button:hover {
+  background-color: #2980b9;
+}
+
+/* Tombol Delete */
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
