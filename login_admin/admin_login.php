@@ -2,7 +2,7 @@
 session_start();
 
 require_once '../db.php';
-require_once '../class/Admin.php';
+require_once '../clas/Admin.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -87,4 +87,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     
 </body>
 </html>
+
 
